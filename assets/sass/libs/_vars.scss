@@ -19,12 +19,12 @@
 
 // Palette.
 	$palette: (
-		bg:				#f3f6fa,
-		fg:				#7c8081,
-		border:			transparentize(#7c8081, 0.8),
+		bg:				#0c0905,
+		fg:				#837F7E,
+		border:			transparentize(#837F7E, 0.8),
 
 		header: (
-			bg:			#fff,
+			bg:			#111,
 			fg:			inherit,
 			alt-bg:		transparent,
 			alt-fg:		#fff
@@ -32,23 +32,23 @@
 
 		banner: (
 			bg:			#898786,
-			fg:			#fff,
+			fg:			#111,
 			inner-bg:	#341b2b,
 			inner-fg:	#fff
 		),
 
 		footer: (
-			bg:			#E8EEF4,
-			fg:			#7c8081
+			bg:			#17110B,
+			fg:			#837F7E
 		),
 
 		one: (
-			bg:			#83d3c9,
+			bg:			#ff7e2ece,
 			fg:			#fff
 		),
 
 		two: (
-			bg:			#fff,
+			bg:			#111,
 			fg:			inherit
 		),
 
@@ -59,12 +59,12 @@
 
 		navPanel: (
 			bg:			#1c2021,
-			fg:			#fff
+			fg:			#111
 		),
 
 		navButton: (
 			bg:			rgba(163,169,170,0.75),
-			fg:			#fff
+			fg:			#111
 		),
 
 		twitter: (
