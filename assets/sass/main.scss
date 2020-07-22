@@ -758,7 +758,7 @@ $pattern-background-size: 25em;
 
 		&.style2 {
 			background-color: _palette(one, bg);
-			background-image: url('images/light-bl.svg'), url('images/light-br.svg');
+			background-image: url('images/dark-bl.svg'), url('images/dark-br.svg');
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: $pattern-background-size, $pattern-background-size;
@@ -988,6 +988,21 @@ $pattern-background-size: 25em;
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: _palette(three, bg);
+		/*
+		-moz-transition:	background-image 1s ease , opacity 1.5s ease, visibility 1.5s;
+    	-webkit-transition:	background-image 1s ease , opacity 1.5s ease, visibility 1.5s;
+    	-ms-transition:		background-image 1s ease , opacity 1.5s ease, visibility 1.5s;
+		transition:			background-image 1s ease , opacity 1.5s ease, visibility 1.5s;
+		-o-transition: 		background-image 1s ease , opacity 1.5s ease, visibility 1.5s;
+
+		*/
+		/*
+		-webkit-transition: background-image 500ms ease-in 400ms;
+		-moz-transition: background-image 500ms ease-in 400ms;
+		-o-transition: background-image 500ms ease-in 400ms;
+		transition: background-image 500ms ease-in 400ms;
+		*/
+
 		background-image: url('images/light-bl.svg'), url('images/light-br.svg'), url('images/overlay.png'), url('../../images/banner.jpg');
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
@@ -996,7 +1011,57 @@ $pattern-background-size: 25em;
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
+		article{
 
+			.inner {
+				@include vendor('animation', 'reveal-banner 1s 0.25s ease-in-out');
+				@include vendor('animation-fill-mode', 'forwards');
+				background: transparentize(_palette(banner, inner-bg), 0.5);
+				color: _palette(banner, inner-fg);
+				display: inline-block;
+				opacity: 0;
+				padding: 3em;
+				text-align: center;
+	
+				header {
+					display: inline-block;
+					border-bottom: solid 2px;
+					border-top: solid 2px;
+					margin: 0 0 2em 0;
+					padding: 3px 0 3px 0;
+	
+					h2 {
+						border-bottom: solid 2px;
+						border-top: solid 2px;
+						font-size: 2.5em;
+						font-weight: 900;
+						letter-spacing: 0.2em;
+						margin: 0;
+						padding-left: 0.05em;
+						position: relative;
+						text-transform: uppercase;
+					}
+				}
+	
+				p {
+					letter-spacing: 0.1em;
+					margin: 0;
+					text-transform: uppercase;
+	
+					a {
+						color: inherit;
+						font-weight: 400;
+						text-decoration: none;
+					}
+				}
+	
+				footer {
+					margin: 2em 0 0 0;
+				}
+			}
+
+		}
+		/*
 		.inner {
 			@include vendor('animation', 'reveal-banner 1s 0.25s ease-in-out');
 			@include vendor('animation-fill-mode', 'forwards');
@@ -1043,12 +1108,13 @@ $pattern-background-size: 25em;
 				margin: 2em 0 0 0;
 			}
 		}
+		*/
 	}
 
 /* Main */
 
 	#main {
-		background-image: url('images/dark-tl.svg'), url('images/dark-tr.svg'), url('images/dark-bl.svg'), url('images/dark-br.svg');
+		background-image: url('images/light-tl.svg'), url('images/light-tr.svg'), url('images/light-bl.svg'), url('images/light-br.svg');
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: $pattern-background-size;
