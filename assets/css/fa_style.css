@@ -6,24 +6,157 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+header.special .icon-SPT {
+  cursor: default;
+  height: 7em;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 1em;
+  width: 100%;
 }
+header.special .icon-SPT:before {
+  font-size: 5em;
+  opacity: 0.35;
+}
+
+/* Icon */
+.icon-SPT {
+  text-decoration: none;
+  position: relative;
+}
+.icon-SPT > .label {
+  display: none;
+}
+.icon-SPT:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  text-transform: none !important;
+  font-family: 'icomoon' !important;  
+  font-weight: 400;
+}
+.icon-SPT.solid:before {
+  font-weight: 900;
+}
+.icon-SPT:before {
+  line-height: inherit;
+}
+.icon-SPT.brands:before {
+  font-family: 'icomoon' !important;  
+}
+.icon-SPT.circle {
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border: 0;
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 1.25em;
+  height: 2.25em;
+  left: 0;
+  line-height: 2.25em;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  width: 2.25em;
+}
+.icon-SPT.square1 {
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  border: 0;
+  border-radius: 00%;
+  display: inline-block;
+  font-size: 1.25em;
+  height: 2.25em;
+  left: 0;
+  line-height: 2.25em;
+  text-align: center;
+  text-decoration: none;
+  top: 0;
+  width: 2.25em;
+}
+.icon-SPT.circle:hover {
+  top: -0.2em;
+}
+.icon.circle.fa-facebook-f {
+  background: #207bb9;
+  color: #fff;
+}
+.icon.circle.fa-facebook-f:hover {
+  background: #2f84c3;
+}
+.icon.circle.fa-instagram {
+  background: #ce4c7a;
+  color: #fff;
+}
+.icon.circle.fa-instagram:hover {
+  background: #d85683;
+}
+.icon-SPT.circle.tiktok {
+  background: #000;
+  color: #fff;
+}
+.icon-SPT.circle.tiktok:hover {
+  background: #0d0d0d;
+}
+.icon-SPT.square1.tiktok {
+  background: #000;
+  color: #fff;
+}
+.icon-SPT.square1.tiktok:hover {
+  background: #0d0d0d;
+}
+.icon.circle.fa-linkedin {
+  background: #0077b7;
+  color: #fff;
+}
+.icon.circle.fa-linkedin:hover {
+  background: #2081c2;
+}.icon.circle.fa-whatsapp {
+  background: #1bd741;
+  color: #fff;
+}
+.icon.circle.fa-whatsapp:hover {
+  background: #30e14b;
+}.icon.circle.fa-telegram {
+  background: #28a7e1;
+  color: #fff;
+}
+.icon.circle.fa-telegram:hover {
+  background: #38b0eb;
+}
+.icon-SPT.circle.icon-mail {
+  background: #ff7e2e;
+  color: #fff;
+}
+.icon-SPT.circle.icon-mail:hover {
+  background: #ef8737;
+}
+
+
+
+
+
 
 .icon-FontAQUA-1:before {
   content: "\e901";
 }
 .icon-FontAQUA2-1:before {
   content: "\e900";
+}
+
+.tiktok:before {
+  content: "\e903";
+}
+
+.icon-mail:before {
+  content: "\e902";
 }

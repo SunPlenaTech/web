@@ -1,5 +1,5 @@
 /*
-	SunPlena IoT
+	Sunplena Tech
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -100,14 +100,14 @@
 
 var backgrounds = [
 	'banner.jpg',
+	'Emprendimiento01.jpg',
+	'Emprendimiento02.jpg',
 	'slide01.jpg',
 	'slide02.jpg',
 	'slide03.jpg',
 	'slide04.jpg',
-	'slide05.jpg',
 	'slide06.jpg',
 ];
-
 var counter = 0;
 var changeBackground = function () {
 	var position = counter % backgrounds.length,

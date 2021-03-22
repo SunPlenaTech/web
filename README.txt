@@ -1,9 +1,9 @@
-SunPlena IoT
+Sunplena Tech
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-This is SunPlena IoT, a minimal, multi-page responsive site template for HTML5 UP.
+This is Sunplena Tech, a minimal, multi-page responsive site template for HTML5 UP.
 
 As the name implies, this is my twentieth (!) design for HTML5 UP. Since the last
 few have been single page affairs, I decided to go with something a bit more conventional
@@ -12,7 +12,7 @@ built on HTML5/CSS3, and CCA licensed like all my other stuff. Sass sources are 
 included for those of you into that sort of thing (entirely optional).
 
 Special thanks to Michael Domaradzki (md.photomerchant.net) for allowing me to use
-his excellent photos in SunPlena IoT's demo*.
+his excellent photos in Sunplena Tech's demo*.
 
 (* = Not included! Only meant for use with my own on-site demo, so please do NOT download
 and/or use any of Michael's work without his explicit permission!)
